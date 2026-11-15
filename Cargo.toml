@@ -3,6 +3,22 @@ name = "ColoredTree"
 version = "0.1.1"
 edition = "2024"
 
+authors = ["githubyoon"]
+
+license = "GPL-3.0"
+
 [dependencies]
 colored = "3.1.1"
 walkdir = "2.5.0"
+
+[[bin]]
+name = "ColoredTree"
+path = "src/main.rs"
+
+[[bin]]
+name = "ctree"
+path = "src/main.rs"
+
+[[bin]]
+name = "ct"
+path = "src/main.rs"

@@ -40,7 +40,9 @@ fn get_args() -> Config {
 
 fn print_help() {
     println!("Add Color in tree.\n
-Usage: ColoredTree [PATH] [OPTIONS]\n
+Usage: ColoredTree [PATH] [OPTIONS]\n\
+Aliases:\n\
+\tct, ctree\n
 Options:\n\
 \t-d, -depth [depth]\t Maximum depth of directories\n\
 \t-h, -help\t\t Show this help message\n\
